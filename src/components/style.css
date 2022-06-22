@@ -1,0 +1,32 @@
+.register-book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+    background-color: rgb(27, 27, 27);
+}
+.navbar-btn{
+    height: 4rem;
+    width: 7rem;
+    background-color: whitesmoke;
+    border: none;
+}
+.navbar-btn:hover{
+    height: 4rem;
+    width: 7rem;
+    background-color: rgb(27, 27, 27);
+    border: none;
+    transition: 0.4s;
+}
+.form-label{
+    color: antiquewhite;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0rem;
+    background-color: whitesmoke    ;
+}
