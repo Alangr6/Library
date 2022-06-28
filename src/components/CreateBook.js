@@ -28,6 +28,7 @@ export const CreateBook = () => {
 
     store.createItem(newBook);
     navigate("/");
+    console.log(completed);
   }
 
   /*  function handleOnChangeFile(e) {
@@ -53,11 +54,10 @@ export const CreateBook = () => {
       case "author":
         setAuthor(value);
         break;
-
       case "intro":
         setIntro(value);
         break;
-      case "author":
+      case "completed":
         setCompleted(e.target.checked);
         break;
       case "review":
@@ -67,7 +67,9 @@ export const CreateBook = () => {
       default:
         break;
     }
+    console.log(e.target.checked);
   }
+
   return (
     <div className="register-book">
       <form onSubmit={handleSubmit}>
